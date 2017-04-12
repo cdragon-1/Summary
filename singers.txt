@@ -1,0 +1,3 @@
+'drake', 'ed sheeran', 'kodak black', 'brono mars', 'sound track',
+'mastodon', 'future', 'migos', 'mercyme', 'the weeknd', 'miranda lambert',
+'keith urban', 'post malone', 'khalid', 'rick ross', 'big sean'

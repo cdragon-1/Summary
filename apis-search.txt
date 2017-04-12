@@ -1,0 +1,20 @@
+기본 주소 : ec2-13-124-58-139.ap-northeast-2.compute.amazonaws.com/
+login, 회원가입도 기본 주소는 동일
+
+음악 리스트 : 기본주소 + apis-search/list/
+형식 : json
+{
+    "artist": "eminem",
+    "title": "The Monster",
+    "preview": "http://e-cdn-preview-8.deezer.com/stream/8208a068392026316d0373d95cbd8286-4.mp3",
+    "artist_picture": "https://e-cdns-images.dzcdn.net/images/artist/9cfbe0498df69861968fb939cbcc92bd/56x56-000000-80-0-0.jpg",
+    "album_picture": "https://e-cdns-images.dzcdn.net/images/cover/57ba8f36a09d07be40cf778dfa923e49/56x56-000000-80-0-0.jpg"
+  },
+
+  샘플 가수 : eminem, alicia keys, justin bieber
+
+검색 방법 :
+parameter는 q
+key는 (타이틀 or 가수 이름)
+예시)
+ec2-13-124-58-139.ap-northeast-2.compute.amazonaws.com/apis-search/list/?q=alicia
